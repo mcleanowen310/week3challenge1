@@ -1,0 +1,40 @@
+.bkimg{
+    background-image: url(../duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol{
+
+    color: #000000 !important;
+}
+
+.join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+.uk-card {
+    min-height: 500px; /* Adjust the height as needed */
+
+}
+
+.uk-card h3{
+    font-weight: bold;
+}
+
+.my-padding-top{
+    padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for phone mode (max-width: 768px) */
+    .uk-width-1-2 {
+        order: 2; /* Change the order of this column */
+    }
+
+    .bkimg {
+        order: 1; /* Change the order of this column */
+    }
+}
+
+
